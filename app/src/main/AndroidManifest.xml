@@ -15,7 +15,7 @@
                分为有序(来点黑名单拦截)无序(锁屏、解锁、电量提示)
               4: Content Provider (提供了访问SQLite数据的API)
          -->
-        <activity android:name="c.b.a.myapplication.MainActivity" android:label="My Activity">
+        <activity android:name="c.b.a.myapplication.MainActivity" android:label="杨成的APP">
             <!-- intent 意图: android.intent.action.MAIN 就是当前activty的key,
                  category: 指定当前activty的类型,如果是启动的activty则必须是LAUNCHER
             -->
