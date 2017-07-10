@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
         EditText edtUrl = (EditText)this.findViewById(R.id.edt_url);
         String url = edtUrl.getText().toString();
         // 2: 调用系统提供浏览器访问网页(只要调用Activty则必须通过意图)
+       // if(url.substring(0,4)=="http")
         Intent intent = new Intent();
         // Intent.ACTION_VIEW 系统中指定的浏览器actvity key
         intent.setAction(Intent.ACTION_VIEW);

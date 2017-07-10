@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="My APP"
+        android:label="杨成的APP"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!-- 有四大组件,五大布局: (四大组件都需要在配置文件中配置)
